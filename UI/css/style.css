@@ -1,0 +1,185 @@
+
+ @font-face {
+    font-family: AnenirNext;
+    src: url(/fonts/AvenirNextLTPro-It.otf);
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: AnenirNext;
+    src: url(/fonts/AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+    font-family: AnenirNext;
+    src: url(/fonts/AvenirNextLTPro-Bold.otf);
+    font-weight: bold;
+}
+
+* {
+    font-family: AnenirNext;
+}
+
+.navbar-nav > li > a, .navbar-brand{
+    padding-top: 6px !important;
+    padding-bottom: 0 !important;
+    height: 33px;
+    color:#000000;
+}
+
+.bun {
+    box-shadow: 2px 3px 2px 2px rgba(0, 0, 0, 0.12);
+
+}
+
+.card-body {
+    border: none;
+
+}
+.showcase{
+    margin-top: 80px;
+}
+
+.baton1 {
+    background-color: #f1f2f6;
+}
+
+.baton {
+    width: 200px;
+    height: 600px;
+
+    position: absolute;
+    /*it can be fixed too*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+
+}
+
+html,
+body {
+    background-color: #f1f2f6;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+
+form {
+    margin: auto;
+    border: none;
+
+}
+
+input[type=email] {
+    border: none;
+    height: 50px;
+    background-color: #f1f2f6;
+    color: white;
+}
+
+input[type=password] {
+    border: none;
+    height: 50px;
+    background-color: #f1f2f6;
+    color: white;
+}
+
+.cen {
+    text-align: center;
+    align-content: center;
+}
+
+.but {
+    border-radius: .25rem;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-style: bold;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    background-color: #7158e2;
+}
+
+
+.sticky-offset {
+    top: 56px;
+}
+
+#body-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#sidebar-container {
+    min-height: 100vh;
+    background-color: white;
+    padding-top: 0.5px;
+}
+
+/* Sidebar sizes when expanded and expanded */
+.sidebar-expanded {
+    width: 230px;
+}
+
+.sidebar-collapsed {
+    width: 60px;
+}
+
+/* Menu item*/
+#sidebar-container .list-group a {
+    height: 50px;
+    color: white;
+}
+
+/* Submenu item*/
+#sidebar-container .list-group .sidebar-submenu a {
+    height: 45px;
+    padding-left: 30px;
+}
+
+.sidebar-submenu {
+    font-size: 0.9rem;
+}
+
+/* Separators */
+.sidebar-separator-title {
+    background-color: white;
+    height: 35px;
+}
+
+.sidebar-separator {
+    background-color: transparent;
+    height: 25px;
+}
+
+.logo-separator {
+    background-color: #333;
+    height: 60px;
+}
+
+/* Closed submenu icon */
+#sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
+    content: " \f0d7";
+    font-family: FontAwesome;
+    display: inline;
+    text-align: right;
+    padding-left: 10px;
+}
+
+/* Opened submenu icon */
+#sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
+    content: " \f0da";
+    font-family: FontAwesome;
+    display: inline;
+    text-align: right;
+    padding-left: 10px;
+}
